@@ -17,17 +17,15 @@ class Main {
         int testCases = input.nextInt();
 
         for(int i = 0; i < testCases; i++) {
-            System.out.println(i);
-
             int numberOfPapers = input.nextInt();
+            boolean printYes = false;
 
             if(numberOfPapers == 0) {
                 System.out.println("no");
                 continue;
             }
             else if(numberOfPapers == 1) {
-                System.out.println("yes");
-                continue;
+                printYes = true;
             }
 
             Paper[] papers = new Paper[numberOfPapers];
@@ -38,26 +36,62 @@ class Main {
             }
 
             for(int first = 0; first < numberOfPapers; first++) {
-                for(int second = first + 1; second < numberOfPapers; second++) {
-                    if(papers[first].comesBefore(papers[second])) {
+                for (int second = first + 1; second < numberOfPapers; second++) {
+                    if (papers[first].comesBefore(papers[second])) {
                         papers[first].outDeg += 1;
                         papers[second].inDeg += 1;
                     }
 
-                    if(papers[first].comesAfter(papers[second])) {
+                    if (papers[first].comesAfter(papers[second])) {
                         papers[first].inDeg += 1;
                         papers[second].outDeg += 1;
                     }
                 }
             }
 
+            int numberOfStartNodes = 0;
+            int numberOfCenterNodes = 0;
+            int numberOfEndNodes = 0;
 
+            boolean errorFound = false;
 
-            // TODO: Prüfen ob der Graph eulersch ist, falls ja: Print "yes" sonst print "no"
+            for(int j = 0; j < numberOfPapers; j++) {
+                if((papers[j].inDeg == 0) && (papers[j].outDeg == 0)) {
+                    errorFound = true;
+                    break;
+                }
+                else if(papers[j].inDeg == papers[j].outDeg) {
+                    numberOfCenterNodes += 1;
+                    continue;
+                }
+                else if(papers[j].inDeg == papers[j].outDeg + 1) {
+                    numberOfStartNodes += 1;
+                    continue;
+                }
+                else if(papers[j].inDeg + 1 == papers[j].outDeg) {
+                    numberOfEndNodes += 1;
+                    continue;
+                }
+            }
 
-
-            System.out.println("maybe");
-
+            if(printYes) {
+                System.out.println("yes");
+            }
+            else if(errorFound) {
+                System.out.println("no: Error found");
+            }
+            else if((numberOfStartNodes > 1) || (numberOfEndNodes > 1)) {
+                System.out.println("no: too many start / end nodes, startnodes: " + numberOfStartNodes + ", Endnodes: " + numberOfEndNodes);
+            }
+            else if(numberOfCenterNodes == numberOfPapers) {
+                System.out.println("yes");
+            }
+            else if((numberOfCenterNodes == numberOfPapers - 2) && (numberOfStartNodes == 1) && (numberOfEndNodes == 1)) {
+                System.out.println("yes");
+            }
+            else {
+                System.out.println("no: Failed for some reason");
+            }
         }
     }
 }
@@ -79,21 +113,23 @@ class Paper {
     }
 
 
-    // returns true if the current Zettel can be placed before the other Zettel
+    // returns true if the current Zettel can be placed before the other Paper
     public boolean comesBefore(Paper other) {
-        if((second == other.first) && (third == other.second))
+        if((second == other.first) && (third == other.second)) {
             return true;
-        else
+        }
+        else{
             return false;
+        }
     }
 
-    // returns true if the current Zettel can be placed after the other Zettel
+    // returns true if the current Zettel can be placed after the other Paper
     public boolean comesAfter(Paper other) {
-        if((first == other.second) && (second == other.third))
+        if ((first == other.second) && (second == other.third)) {
             return true;
-        else
+        } else {
             return false;
+        }
     }
-
 
 }
