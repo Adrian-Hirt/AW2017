@@ -30,6 +30,24 @@ class Main {
                 continue;
             }
 
+            // TODO: Array für Zettelobjekte erstellen
+
+            // TODO: Für jeden Zettel ein Objekt erstellen
+
+            // TODO: Bei jedem Zettel indeg + outdeg berechnen:
+
+            /*
+            0: mit 1, 2, 3, 4, 5, 6, ..., n - 1 vergleichen
+            1: mit 2, 3, 4, 5, 6, ..., n - 1 vergleichen
+            ...
+            n - 2: mit n - 1 vergleichen
+
+            Jedes mal schauen ob comesBefore oder comesAfter true ist, falls ja degree erhöhen
+             */
+
+            // TODO: Prüfen ob der Graph eulersch ist, falls ja: Print "yes" sonst print "no"
+
+
             System.out.println("maybe");
 
         }
