@@ -51,8 +51,6 @@ class Main {
                 secondNode.inDeg += 1;
             }
 
-            // TODO: Check if graph is euler graph
-
             int startNodes = 0;
             int centerNodes = 0;
             int endNodes = 0;
@@ -80,7 +78,12 @@ class Main {
                 System.out.println("no");
             }
             else if((startNodes == 0) && (endNodes == 0)) {
-                System.out.println("yes");
+                if(centerNodes == 2) {
+                    System.out.println("no");
+                }
+                else {
+                    System.out.println("yes");
+                }
             }
             else if((startNodes == 1) && (endNodes == 1)) {
                 System.out.println("yes");
