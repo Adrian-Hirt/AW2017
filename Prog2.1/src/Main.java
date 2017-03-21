@@ -48,6 +48,11 @@ class Main {
                 }
                 firstNode.outDeg += 1;
                 secondNode.inDeg += 1;
+
+                firstNode.neighbors.add(secondNode);
+                secondNode.neighbors.add(firstNode);
+
+
             }
 
             int startNodes = 0;
@@ -57,9 +62,11 @@ class Main {
 
             int totalNodes = 0;
 
+            Node yolo = null;
             for(Map.Entry<String, Node> entry : map.entrySet()) {
                 // System.out.println(entry.getKey() + " " + entry.getValue());
                 Node current = entry.getValue();
+                yolo = current;
 
                 totalNodes += 1;
 
@@ -79,21 +86,46 @@ class Main {
 
             if(hasError) {
                 System.out.println("no");
+                continue;
             }
             else if((startNodes == 0) && (endNodes == 0)) {
-                if(centerNodes == totalNodes) {
-                    System.out.println("no");
-                }
-                else {
-                    System.out.println("yes");
+                if(centerNodes != totalNodes) {
+                    hasError = true;
                 }
             }
-            else if((startNodes == 1) && (endNodes == 1)) {
-                System.out.println("yes");
+            else if((startNodes == 1) && (endNodes == 1) && (centerNodes == totalNodes - 2)) {
+               // do nothing yolo
             }
             else {
-                System.out.println("no");
+                hasError = true;
             }
+
+            if(hasError) {
+                System.out.println("no");
+                continue;
+            }
+
+            Stack<Node> stack = new Stack<Node>();
+
+
+            stack.push(yolo);
+            int counter = 0;
+
+            while(!stack.empty()) {
+                Node currentNode = stack.pop();
+                if(!currentNode.visited) {
+                    currentNode.visited = true;
+                    counter++;
+                    for(Node child: currentNode.neighbors) {
+                        if(!child.visited) {
+                            stack.push(child);
+                        }
+                    }
+                }
+            }
+
+            System.out.println(counter == map.size() ? "yes" : "no");
+
         }
     }
 }
@@ -103,10 +135,15 @@ class Node {
 
     int inDeg;
     int outDeg;
+    boolean visited;
+
+    LinkedList<Node> neighbors;
 
     public Node(int newIn, int newOut) {
         inDeg = newIn;
         outDeg = newOut;
+        neighbors = new LinkedList<Node>();
+        visited = false;
     }
 
     public String toString() {
