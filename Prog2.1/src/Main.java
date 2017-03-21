@@ -17,8 +17,8 @@ class Main {
                 continue;
             }
             else if(numberOfPapers == 1) {
-                System.out.println("no");
-                String throwAway = input.nextLine();
+                String throwAway = input.next();
+                System.out.println("yes");
                 continue;
             }
 
@@ -52,6 +52,44 @@ class Main {
             }
 
             // TODO: Check if graph is euler graph
+
+            int startNodes = 0;
+            int centerNodes = 0;
+            int endNodes = 0;
+            boolean hasError = false;
+
+            for(Map.Entry<String, Node> entry : map.entrySet()) {
+                // System.out.println(entry.getKey() + " " + entry.getValue());
+                Node current = entry.getValue();
+
+                if(current.inDeg == current.outDeg) {
+                    centerNodes += 1;
+                }
+                else if(current.inDeg == current.outDeg + 1) {
+                    endNodes += 1;
+                }
+                else if(current.inDeg + 1 == current.outDeg) {
+                    startNodes += 1;
+                }
+                else {
+                    hasError = true;
+                }
+            }
+
+            if(hasError) {
+                System.out.println("no");
+            }
+            else if((startNodes == 0) && (endNodes == 0)) {
+                System.out.println("yes");
+            }
+            else if((startNodes == 1) && (endNodes == 1)) {
+                System.out.println("yes");
+            }
+            else {
+                System.out.println("no");
+            }
+
+            // System.out.println("-------------");
         }
     }
 }
@@ -65,6 +103,10 @@ class Node {
     public Node(int newIn, int newOut) {
         inDeg = newIn;
         outDeg = newOut;
+    }
+
+    public String toString() {
+      return "Indeg: " + inDeg + ", Outdeg:" + outDeg;
     }
 
 }
