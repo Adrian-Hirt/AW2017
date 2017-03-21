@@ -10,7 +10,6 @@ class Main {
 
         for(int i = 0; i < testCases; i++) {
             int numberOfPapers = input.nextInt();
-            boolean printYes = false;
 
             if(numberOfPapers == 0) {
                 System.out.println("no");
@@ -56,9 +55,13 @@ class Main {
             int endNodes = 0;
             boolean hasError = false;
 
+            int totalNodes = 0;
+
             for(Map.Entry<String, Node> entry : map.entrySet()) {
                 // System.out.println(entry.getKey() + " " + entry.getValue());
                 Node current = entry.getValue();
+
+                totalNodes += 1;
 
                 if(current.inDeg == current.outDeg) {
                     centerNodes += 1;
@@ -78,7 +81,7 @@ class Main {
                 System.out.println("no");
             }
             else if((startNodes == 0) && (endNodes == 0)) {
-                if(centerNodes == 2) {
+                if(centerNodes == totalNodes) {
                     System.out.println("no");
                 }
                 else {
@@ -91,8 +94,6 @@ class Main {
             else {
                 System.out.println("no");
             }
-
-            // System.out.println("-------------");
         }
     }
 }
