@@ -7,14 +7,13 @@ class Main {
 
         int testCases = input.nextInt();
 
+        // Rational dp[][][] = new Rational[101][101][101];
+
+
         for(int i = 0; i < testCases; i++) {
             int numberOfBears = input.nextInt();
             int numberOfHunters = input.nextInt();
             int numberOfNinjas = input.nextInt();
-
-            Rational[][][] dp = new Rational[numberOfBears + 1][numberOfHunters + 1][numberOfNinjas + 1];
-
-            dp[numberOfBears][numberOfHunters][numberOfNinjas] = new Rational(0, 0);
 
             for(int b = numberOfBears; b >= 0; b--) {
                 for(int h = numberOfHunters; h >= 0; h--) {
@@ -22,23 +21,39 @@ class Main {
                         if(dp[b][h][n] != null) {
 
                         }
+                        else {
+                           // berechne
+                        }
                     }
                 }
             }
+
         }
     }
 
-
-    public static Rational calculateProbability(int x, int y, int z) {
+    /* public static Rational calculateProbability(int x, int y, int z) {
         int counter = x * y;
         int denominator = (x*y) + (x * z) + (y * z);
 
         return new Rational(counter, denominator);
+    } */
+
+}
+
+class Datapoint {
+    double bearsWin;
+    double huntersWin;
+    double ninjasWin;
+
+    public Datapoint(double bears, double hunters, double ninjas) {
+        bearsWin = bears;
+        huntersWin = hunters;
+        ninjasWin = ninjas;
     }
 
 }
 
-class Rational {
+/* class Rational {
     private int counter;
     private int denominator;
 
@@ -94,3 +109,4 @@ class Rational {
     }
 
 }
+*/
