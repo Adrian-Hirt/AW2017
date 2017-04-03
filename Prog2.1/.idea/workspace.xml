@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ca51dbc-66a2-4729-8537-5a336282641d" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Prog2.1/Main.class" afterPath="$PROJECT_DIR$/out/production/Prog2.1/Main.class" />
+=======
+>>>>>>> de20c32a3963a88b36faa8b380c890feb2aacd8a
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,23 +21,35 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Prog2.1" />
+  </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
               <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="10" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+>>>>>>> de20c32a3963a88b36faa8b380c890feb2aacd8a
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample.in" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input/sample.in">
+      <file leaf-file-name="test1.in" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input/test1.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="25">
+              <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="80882" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,12 +83,21 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="2182" />
+    <option name="height" value="1402" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -89,6 +113,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+>>>>>>> de20c32a3963a88b36faa8b380c890feb2aacd8a
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -96,58 +126,15 @@
               <option name="myItemId" value="Prog2.1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog2.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog2.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog2.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog2.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog2.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog2.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog2.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="input" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+=======
+>>>>>>> de20c32a3963a88b36faa8b380c890feb2aacd8a
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,6 +146,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -183,7 +171,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -193,7 +181,7 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -201,11 +189,7 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -230,11 +214,7 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <method />
     </configuration>
@@ -253,7 +233,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="arquillianRunConfiguration">
@@ -404,11 +384,37 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+<<<<<<< HEAD
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
+=======
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+>>>>>>> de20c32a3963a88b36faa8b380c890feb2aacd8a
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -450,12 +456,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -484,6 +484,9 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -491,6 +494,34 @@
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -528,10 +559,23 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
+      <command value="run-script" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
@@ -548,6 +592,34 @@
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -561,8 +633,14 @@
       <updated>1489941230645</updated>
       <workItem from="1489941233356" duration="64000" />
       <workItem from="1490016051949" duration="5275000" />
+<<<<<<< HEAD
       <workItem from="1490037188614" duration="5952000" />
       <workItem from="1491239843588" duration="7000" />
+=======
+      <workItem from="1490037188614" duration="5927000" />
+      <workItem from="1490081270183" duration="8402000" />
+      <workItem from="1490188155034" duration="97000" />
+>>>>>>> de20c32a3963a88b36faa8b380c890feb2aacd8a
     </task>
     <task id="LOCAL-00001" summary="Added Zettel class and first idea for solution">
       <created>1490017769900</created>
@@ -592,6 +670,7 @@
       <option name="project" value="LOCAL" />
       <updated>1490041863277</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00005" summary="started with new idea">
       <created>1490043728145</created>
       <option name="number" value="00005" />
@@ -604,13 +683,49 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="11308000" />
+=======
+    <task id="LOCAL-00005" summary="Kinda working except for &quot;aaa&quot; &amp; &quot;bbb&quot;">
+      <created>1490082976368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1490082976368</updated>
+    </task>
+    <task id="LOCAL-00006" summary="working for test1 locally">
+      <created>1490083349171</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1490083349171</updated>
+    </task>
+    <task id="LOCAL-00007" summary="working locally but not on the judge...">
+      <created>1490083946544</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1490083946544</updated>
+    </task>
+    <task id="LOCAL-00008" summary="finally works">
+      <created>1490099920587</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1490099920587</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19775000" />
+>>>>>>> de20c32a3963a88b36faa8b380c890feb2aacd8a
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -622,22 +737,39 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3066343" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> de20c32a3963a88b36faa8b380c890feb2aacd8a
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20364584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7526427" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+>>>>>>> de20c32a3963a88b36faa8b380c890feb2aacd8a
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,8 +791,16 @@
     <MESSAGE value="Fleshed out the idea a bit more" />
     <MESSAGE value="Paper objects are created and in/outdeg are calculated" />
     <MESSAGE value="Wrong idea, starting over. Old idea was aiming for hamilton path, but that's NP-complete. neet to go for eulerpath" />
+<<<<<<< HEAD
     <MESSAGE value="started with new idea" />
     <option name="LAST_COMMIT_MESSAGE" value="started with new idea" />
+=======
+    <MESSAGE value="Kinda working except for &quot;aaa&quot; &amp; &quot;bbb&quot;" />
+    <MESSAGE value="working for test1 locally" />
+    <MESSAGE value="working locally but not on the judge..." />
+    <MESSAGE value="finally works" />
+    <option name="LAST_COMMIT_MESSAGE" value="finally works" />
+>>>>>>> de20c32a3963a88b36faa8b380c890feb2aacd8a
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -673,6 +813,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -691,22 +832,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
+=======
+>>>>>>> de20c32a3963a88b36faa8b380c890feb2aacd8a
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/sample.out">
+    <entry file="file://$PROJECT_DIR$/input/test1.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="25">
+          <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="80882" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/test1.out">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="204">
           <caret line="12" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
         </state>
@@ -717,28 +863,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="306" column="0" lean-forward="false" selection-start-line="306" selection-start-column="0" selection-end-line="355" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input/test1.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="1" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="80882" selection-end-column="0" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input/sample.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="25">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> de20c32a3963a88b36faa8b380c890feb2aacd8a
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/test1.out">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-136">
+          <caret line="1" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="80882" selection-end-column="0" />
+=======
+        <state relative-caret-position="204">
+          <caret line="12" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/test1Ann.in" />
+    <entry file="file://$PROJECT_DIR$/input/test1a.in" />
+    <entry file="file://$PROJECT_DIR$/output/sample.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> de20c32a3963a88b36faa8b380c890feb2aacd8a
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/sample.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/test1.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="80882" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="612">
           <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+=======
+        <state relative-caret-position="25">
+          <caret line="10" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+>>>>>>> de20c32a3963a88b36faa8b380c890feb2aacd8a
           <folding />
         </state>
       </provider>
