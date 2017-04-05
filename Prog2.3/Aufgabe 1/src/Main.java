@@ -1,3 +1,5 @@
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.*;
 
 class Main {
@@ -9,13 +11,15 @@ class Main {
 
         for(int i = 1; i < 101; i++) {
             for(int j = 1; j < 101; j++) {
-                Rational zero = new Rational(0, 1);
-                Rational one = new Rational(1, 1);
 
-                dp[0][i][j] = new Datapoint(zero, zero, one);
-                dp[i][0][j] = new Datapoint(one, zero, zero);
-                dp[i][j][0] = new Datapoint(zero, one, zero);
+                dp[0][i][j] = new Datapoint(0.0, 0.0, 1.0);
+                dp[i][0][j] = new Datapoint(1.0, 0.0, 0.0);
+                dp[i][j][0] = new Datapoint(0.0, 1.0, 0.0);
             }
+
+            dp[i][0][0] = new Datapoint(1.0, 0.0, 0.0);
+            dp[0][i][0] = new Datapoint(0.0, 1.0, 0.0);
+            dp[0][0][i] = new Datapoint(0.0, 0.0, 1.0);
         }
 
         int testCases = input.nextInt();
@@ -29,19 +33,11 @@ class Main {
 
             Datapoint result = dp[numberOfBears][numberOfHunters][numberOfNinjas];
 
-            System.out.print(result.bearsWin + " | " + result.huntersWin + " | " + result.ninjasWin);
+            DecimalFormat df = new DecimalFormat("0.0######");
+            df.setRoundingMode(RoundingMode.HALF_DOWN);
+
+            System.out.print(df.format(result.bearsWin) + " " + df.format(result.huntersWin) + " " + df.format(result.ninjasWin));
             System.out.println();
-            System.out.println("----------------------------------");
-
-            /*Rational tree = new Rational(6, 2);
-            Rational four = new Rational(4, 1);
-
-            Rational seven = tree.add(four);
-
-            seven.reduce();
-
-            System.out.println(seven); */
-
         }
     }
 
@@ -63,27 +59,28 @@ class Main {
             calculate(b, h, n - 1);
         }
 
-        Rational bears = calculateProbability(b, h, n);
-        Rational hunters = calculateProbability(h, n, b);
-        Rational ninjas = calculateProbability(n, b, h);
+        double bears = calculateProbability(b, h, n);
+        double hunters = calculateProbability(h, n, b);
+        double ninjas = calculateProbability(n, b, h);
 
-        Rational pB = new Rational(0, 1);
-        Rational pH = new Rational(0, 1);
-        Rational pN = new Rational(0, 1);
+        double pB = 0.0;
+        double pH = 0.0;
+        double pN = 0.0;
 
-        pB.add(bears.multiply(dp[b - 1][h][n].bearsWin));
-        pB.add(hunters.multiply(dp[b][h - 1][n].bearsWin));
-        pB.add(ninjas.multiply(dp[b][h][n - 1].bearsWin));
+        pB += bears * dp[b - 1][h][n].bearsWin;
+        pB += hunters * dp[b][h - 1][n].bearsWin;
+        pB += ninjas * dp[b][h][n - 1].bearsWin;
 
-        pH.add(bears.multiply(dp[b - 1][h][n].huntersWin));
-        pH.add(hunters.multiply(dp[b][h - 1][n].huntersWin));
-        pH.add(ninjas.multiply(dp[b][h][n - 1].huntersWin));
+        pH += bears * dp[b - 1][h][n].huntersWin;
+        pH += hunters * dp[b][h - 1][n].huntersWin;
+        pH += ninjas * dp[b][h][n - 1].huntersWin;
 
-        pN.add(bears.multiply(dp[b - 1][h][n].ninjasWin));
-        pN.add(hunters.multiply(dp[b][h - 1][n].ninjasWin));
-        pN.add(ninjas.multiply(dp[b][h][n - 1].ninjasWin));
+        pN += bears * dp[b - 1][h][n].ninjasWin;
+        pN += hunters * dp[b][h - 1][n].ninjasWin;
+        pN += ninjas * dp[b][h][n - 1].ninjasWin;
 
-        System.out.println(bears);
+
+        /*System.out.println(bears);
         System.out.println(hunters);
         System.out.println(ninjas);
 
@@ -91,27 +88,24 @@ class Main {
         System.out.println(pH);
         System.out.println(pN);
 
-        System.out.println("XXXXXXXXXXXXXXXXXXXXX");
+        System.out.println("XXXXXXXXXXXXXXXXXXXXX");*/
 
         dp[b][h][n] = new Datapoint(pB, pH, pN);
 
     }
 
-    public static Rational calculateProbability(int x, int y, int z) {
-        int counter = x * y;
-        int denominator = (x*y) + (x * z) + (y * z);
-
-        return new Rational(counter, denominator);
+    public static double calculateProbability(int x, int y, int z) {
+        return ((double)(x * y)) / ((double)(x*y) + (x * z) + (y * z));
     }
 
 }
 
 class Datapoint {
-    Rational bearsWin;
-    Rational huntersWin;
-    Rational ninjasWin;
+    double bearsWin;
+    double huntersWin;
+    double ninjasWin;
 
-    public Datapoint(Rational bears, Rational hunters, Rational ninjas) {
+    public Datapoint(double bears, double hunters, double ninjas) {
         bearsWin = bears;
         huntersWin = hunters;
         ninjasWin = ninjas;
@@ -119,7 +113,7 @@ class Datapoint {
 
 }
 
-class Rational {
+/*class Rational {
     private int counter;
     private int denominator;
 
@@ -178,4 +172,4 @@ class Rational {
         return ((double)counter) / ((double)denominator);
     }
 
-}
+}*/
