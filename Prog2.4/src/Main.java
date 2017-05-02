@@ -46,14 +46,8 @@ class Main {
 
         int k = 0;
 
-        // calculate the exponent to calculate x later
-        /*while ((d.mod(two)).equals(BigInteger.ZERO)) {
+        while(d.mod(two).equals(BigInteger.ZERO)) {
             d = d.divide(two);
-            k += 1;
-        }*/
-
-        while((d.mod(two)).equals(BigInteger.ZERO)) {
-            d = d.shiftRight(1);
             k += 1;
         }
 
@@ -61,7 +55,7 @@ class Main {
         BigInteger x = a.modPow(d, number);
 
         // if x == 1 or x == number - 1 return true because number is a prime
-        if ((x.equals(BigInteger.ONE)) || (x.equals(n.subtract(BigInteger.ONE)))) {
+        if ((x.equals(BigInteger.ONE)) || (x.equals(n))) {
             //p("1 ");
             return true;
         }
@@ -75,16 +69,15 @@ class Main {
             // if x == 1 then x is no prime
             if (x.equals(BigInteger.ONE)) {
                 //p("2 ");
-                return true;
+                return false;
             }
 
-            // if x == n - 1 it is a prime
-            if (x.equals(n.subtract(BigInteger.ONE))) {
+            // if x == number - 1 it is a prime
+            if (x.equals(n)) {
                 //p("3 ");
                 return true;
             }
         }
-
         // no prime
         //p("4 ");
         return false;
