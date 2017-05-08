@@ -17,27 +17,9 @@ class Main {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String line = null;
 
-        //long testCases = input.nextLong();
-
         String cases = reader.readLine();
 
         long testCases = Long.valueOf(cases).longValue();
-
-        /*for(long i = 0; i < testCases; i++) {
-
-            BigInteger number = input.nextBigInteger();
-
-            if(number.equals(one)) {
-                System.out.println("no");
-            }
-            else if(number.equals(two) || number.equals(tree)) {
-                System.out.println("yes");
-            }
-            else if (checkAdvancedPrime(number))
-                System.out.println("yes");
-            else
-                System.out.println("no");
-        }*/
 
         for(long i = 0; i < testCases; i++) {
             line = reader.readLine();
