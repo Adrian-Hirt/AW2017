@@ -47,7 +47,7 @@ class Main {
             int inside = 500000 - outside;
             double percentage = (inside / 500000.0);
 
-
+            System.out.println(percentage);
 
             String answer = (((percentage >= 0.99 * v) && (percentage <= 1.01 * v)) ? "yes" : "no");
 
